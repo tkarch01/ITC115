@@ -1,0 +1,3 @@
+RECTANGLES (length|width|area|perimeter): 
+1.0|2.0|2.0|6.0
+3.0|4.0|12.0|14.0

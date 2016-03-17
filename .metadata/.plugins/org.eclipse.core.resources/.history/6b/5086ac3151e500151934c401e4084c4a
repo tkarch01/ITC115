@@ -1,0 +1,5 @@
+kage business;
+
+public interface Bartable {
+
+}

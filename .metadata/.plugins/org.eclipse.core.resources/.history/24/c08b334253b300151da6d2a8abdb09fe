@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+
+public class TheMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//user greeting
+		System.out.println("Welcome to the Invoice Calculator");
+		
+		//create a Scanner Object to read the user input
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter invoice amount and I will tell you what is your total including tax: ");
+		
+
+	}
+
+}

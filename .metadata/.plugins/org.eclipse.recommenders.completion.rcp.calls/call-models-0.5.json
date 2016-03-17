@@ -1,0 +1,17 @@
+{
+  "G:\\Library\\School\\1tc115\\workspace\\ITC115-Assignment-3\\src": {
+    "location": "G:\\Library\\School\\1tc115\\workspace\\ITC115-Assignment-3\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027G:\\Library\\School\\1tc115\\workspace\\ITC115-Assignment-3\\src\u0027. Skipped."
+  },
+  "G:\\Library\\School\\itc115\\workspace\\itc115-Assignment-5\\src": {
+    "location": "G:\\Library\\School\\itc115\\workspace\\itc115-Assignment-5\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027G:\\Library\\School\\itc115\\workspace\\itc115-Assignment-5\\src\u0027. Skipped."
+  },
+  "C:\\Program Files\\Java\\jdk1.8.0_66\\jre\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_66\\jre\\lib\\rt.jar",
+    "status": "RESOLVED"
+  }
+}

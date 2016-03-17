@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;ui&apos; to &apos;ITC115-ExtraCreditAssignment/src&apos;&#x0D;&#x0A;- Original project: &apos;ITC115-Assignment-8&apos;&#x0D;&#x0A;- Destination element: &apos;ITC115-ExtraCreditAssignment/src&apos;&#x0D;&#x0A;- Original element: &apos;ITC115-Assignment-8/src/ui&apos;" description="Copy package" destination="=ITC115-ExtraCreditAssignment/src" element1="/src&lt;ui" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1457319002759" version="1.0"/>
+</session>

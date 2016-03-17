@@ -1,0 +1,122 @@
+package db;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import business.Movie;
+
+public class MovieDB {
+	private List<Movie> movieDB;
+	
+	public MovieDB(){
+		movieDB = new ArrayList<>();
+		movieDB.add(new Movie("Citizen Kane", "drama"));
+        movieDB.add(new Movie("Casablanca", "drama"));
+        movieDB.add(new Movie("The Godfather", "drama"));
+        movieDB.add(new Movie("Gone With The Wind", "drama"));
+        movieDB.add(new Movie("Lawrence Of Arabia", "drama"));
+        movieDB.add(new Movie("The Wizard Of Oz", "musical"));
+        movieDB.add(new Movie("The Graduate", "drama"));
+        movieDB.add(new Movie("On The Waterfront", "drama"));
+        movieDB.add(new Movie("Schindler's List", "drama"));
+        movieDB.add(new Movie("Singin' In The Rain", "musical"));
+        movieDB.add(new Movie("It's A Wonderful Life", "drama"));
+        movieDB.add(new Movie("Sunset Boulevard", "drama"));
+        movieDB.add(new Movie("The Bridge On The River Kwai", "drama"));
+        movieDB.add(new Movie("Some Like It Hot", "drama"));
+        movieDB.add(new Movie("Star Wars", "scifi"));
+        movieDB.add(new Movie("All About Eve", "drama"));
+        movieDB.add(new Movie("The African Queen", "drama"));
+        movieDB.add(new Movie("Psycho", "horror"));
+        movieDB.add(new Movie("Chinatown", "drama"));
+        movieDB.add(new Movie("One Flew Over The Cuckoo's Nest", "drama"));
+        movieDB.add(new Movie("The Grapes Of Wrath", "drama"));
+        movieDB.add(new Movie("2001: A Space Odyssey", "scifi"));
+        movieDB.add(new Movie("The Maltese Falcon", "drama"));
+        movieDB.add(new Movie("Raging Bull", "drama"));
+        movieDB.add(new Movie("E.T. The extra-terrestrial", "scifi"));
+        movieDB.add(new Movie("Dr. Strangelove", "drama"));
+        movieDB.add(new Movie("Bonnie And Clyde", "drama"));
+        movieDB.add(new Movie("Apocalypse Now", "drama"));
+        movieDB.add(new Movie("Mr. Smith Goes to Washington", "drama"));
+        movieDB.add(new Movie("The Treasure Of The Sierra Madre", "drama"));
+        movieDB.add(new Movie("Annie Hall", "comedy"));
+        movieDB.add(new Movie("The Godfather Part II", "drama"));
+        movieDB.add(new Movie("High Noon", "drama"));
+        movieDB.add(new Movie("To Kill A Mockingbird", "drama"));
+        movieDB.add(new Movie("It Happened One Night", "drama"));
+        movieDB.add(new Movie("Midnight Cowboy", "drama"));
+        movieDB.add(new Movie("The Best Years Of Our Lives", "drama"));
+        movieDB.add(new Movie("Double Indemnity", "drama"));
+        movieDB.add(new Movie("Doctor Zhivago", "drama"));
+        movieDB.add(new Movie("North By Northwest", "drama"));
+        movieDB.add(new Movie("West Side Story", "musical"));
+        movieDB.add(new Movie("Rear Window", "drama"));
+        movieDB.add(new Movie("King Kong", "horror"));
+        movieDB.add(new Movie("The Birth Of A Nation", "drama"));
+        movieDB.add(new Movie("A Streetcar Named Desire", "drama"));
+        movieDB.add(new Movie("A Clockwork Orange", "scifi"));
+        movieDB.add(new Movie("Taxi Driver", "drama"));
+        movieDB.add(new Movie("Jaws", "horror"));
+        movieDB.add(new Movie("Snow White And The Seven Dwarfs", "animated"));
+        movieDB.add(new Movie("Butch Cassidy And The Sundance Kid", "drama"));
+        movieDB.add(new Movie("The Philadelphia Story", "drama"));
+        movieDB.add(new Movie("From Here To Eternity", "drama"));
+        movieDB.add(new Movie("Amadeus", "drama"));
+        movieDB.add(new Movie("All Quiet On The Western Front", "drama"));
+        movieDB.add(new Movie("The Sound Of Music", "musical"));
+        movieDB.add(new Movie("M*A*S*H", "comedy"));
+        movieDB.add(new Movie("The Third Man", "drama"));
+        movieDB.add(new Movie("Fantasia", "animated"));
+        movieDB.add(new Movie("Rebel Without A Cause", "drama"));
+        movieDB.add(new Movie("Raiders Of The Lost Ark", "drama"));
+        movieDB.add(new Movie("Vertigo", "drama"));
+        movieDB.add(new Movie("Tootsie", "comedy"));
+        movieDB.add(new Movie("Stagecoach", "drama"));
+        movieDB.add(new Movie("Close Encounters Of The Third Kind", "scifi"));
+        movieDB.add(new Movie("The Silence Of The Lambs", "horror"));
+        movieDB.add(new Movie("Network", "drama"));
+        movieDB.add(new Movie("The Manchurian Candidate", "drama"));
+        movieDB.add(new Movie("An American In Paris", "drama"));
+        movieDB.add(new Movie("Shane", "drama"));
+        movieDB.add(new Movie("The French Connection", "drama"));
+        movieDB.add(new Movie("Forrest Gump", "drama"));
+        movieDB.add(new Movie("Ben-Hur", "drama"));
+        movieDB.add(new Movie("Wuthering Heights", "drama"));
+        movieDB.add(new Movie("The Gold Rush", "drama"));
+        movieDB.add(new Movie("Dances With Wolves", "drama"));
+        movieDB.add(new Movie("City Lights", "drama"));
+        movieDB.add(new Movie("American Graffiti", "drama"));
+        movieDB.add(new Movie("Rocky", "drama"));
+        movieDB.add(new Movie("The Deer Hunter", "drama"));
+        movieDB.add(new Movie("The Wild Bunch", "drama"));
+        movieDB.add(new Movie("Modern Times", "drama"));
+        movieDB.add(new Movie("Giant", "drama"));
+        movieDB.add(new Movie("Platoon", "drama"));
+        movieDB.add(new Movie("Fargo", "drama"));
+        movieDB.add(new Movie("Duck Soup", "comedy"));
+        movieDB.add(new Movie("Mutiny On The Bounty", "drama"));
+        movieDB.add(new Movie("Frankenstein", "horror"));
+        movieDB.add(new Movie("Easy Rider", "drama"));
+        movieDB.add(new Movie("Patton", "drama"));
+        movieDB.add(new Movie("The Jazz Singer", "drama"));
+        movieDB.add(new Movie("My Fair Lady", "musical"));
+        movieDB.add(new Movie("A Place In The Sun", "drama"));
+        movieDB.add(new Movie("The Apartment", "drama"));
+        movieDB.add(new Movie("Goodfellas", "drama"));
+        movieDB.add(new Movie("Pulp Fiction", "drama"));
+        movieDB.add(new Movie("The Searchers", "drama"));
+        movieDB.add(new Movie("Bringing Up Baby", "drama"));
+        movieDB.add(new Movie("Unforgiven", "drama"));
+        movieDB.add(new Movie("Guess Who's Coming To Dinner", "drama"));
+        movieDB.add(new Movie("Yankee Doodle Dandy", "musical"));
+	}
+
+	public static ArrayList<Movie> getMovies(String category) {
+		return null;
+			
+	}
+	   
+
+	
+}

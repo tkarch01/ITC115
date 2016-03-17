@@ -1,0 +1,42 @@
+package ui;
+
+import business.Bart;
+import business.Lisa;
+import business.Player1;
+import business.Roshambo;
+
+public class RoshamboApp {
+	
+	public static void main(String[] args) {
+		
+		Player1 mySelf = new Player1();
+		String message;
+		
+		/* Display a welcome message */	
+		Console.displayLine("Welcome to the game of Roshambo");
+		Console.displayLine();
+		
+		mySelf.setName(Console.getRequiredString("Enter your name:"));
+		Console.displayLine();
+		
+		if (Console.getChoice("Would you like to play Bart or Lisa? (b/l): ", "b", "l").equalsIgnoreCase("b")){
+			//you chose to play Bart
+			Bart opponent = new Bart();	
+		}else{
+			//you chose to play Lisa
+			Lisa opponent = new Lisa();
+		}
+		Console.displayLine();
+{			message ="";
+			mySelf.setValue(mySelf.generateRoshambo());
+			opponent.setValue(opponent.generateRoshambo());
+			
+			
+			message = "\n" + mySelf.getName() + ": " + mySelf.getValue() + "\n" +
+					opponent.getName() + ": " + opponent.getValue() + "\n" +
+					 "!\n\n"; 
+			Console.displayLine(message);
+		}while(Console.getChoice("Play again? (y/n): ","y","n").equalsIgnoreCase("y"));
+	}
+
+}

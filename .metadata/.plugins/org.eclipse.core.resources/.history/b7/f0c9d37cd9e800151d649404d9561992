@@ -1,0 +1,30 @@
+/*
+* ITC 115 W16 - 3182
+* Assignment 9
+* 
+*Thomas Karchesy
+* March 14, 2016
+*/
+package ui;
+
+import business.Movie;
+import db.MovieDB;
+
+public class MovieApp {
+
+	public static void main(String[] args) {
+		Console.displayLine("Welcome to the Movie Lister");
+		Console.displayLine();
+		Console.displayLine("There are 100 movies in the list.");
+		
+		/* always do at least once */
+		do {
+			Console.displayLine();
+			
+			for (Movie movies : MovieDB.getMovies(Console.getString("What category are you interested in? "))){
+				Console.displayLine(movies.getTitle());
+			}		
+			
+		}while ( Console.getChoice("Continue? (y/n): ", "y", "n").equalsIgnoreCase("y"));
+	}
+}

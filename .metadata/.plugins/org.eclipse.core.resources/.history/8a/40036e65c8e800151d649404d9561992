@@ -1,0 +1,60 @@
+/*
+* ITC 115 W16 - 3182
+* Assignment 9
+* 
+*Thomas Karchesy
+* March 14, 2016
+*/
+package ui;
+
+public class MovieApp {
+
+	public static void main(String[] args) {
+		Console.displayLine("Welcome to the Movie Lister");
+
+		Console.displayLine("There are 100 movies in the list.");
+
+		Console.displayLine("What category are you interested in? scif");
+
+		/*
+		 * 
+List movies by category
+Console
+Welcome to the Movie Lister
+
+There are 100 movies in the list.
+
+What category are you interested in? scifi
+
+Star Wars
+2001: A Space Odyssey
+E.T. The extra-terrestrial
+A Clockwork Orange
+Close Encounters Of The Third Kind
+
+Continue? (y/n): y
+
+What category are you interested in? comedy
+
+Annie Hall
+M*A*S*H
+Tootsie
+Duck Soup
+
+Continue? (y/n): n
+Operation
+⦁	This application stores a list of 100 movies and displays them by category.
+⦁	The user can enter any of the following categories to display the films in the list that match the category:
+⦁		animated
+	drama
+	horror
+	musical
+	scifi
+⦁	After each list is displayed, the user is asked whether to continue. If the user enters Y or y, the program asks for another category. Otherwise, the program ends.
+Specifications
+⦁	Code  a Movie class to store the title and category for each movie.
+⦁	Code a MovieDB class to get the ArrayList objects.  Code your own or use the below code as a start, which also provides 100 sample movies
+*/
+	}
+
+}

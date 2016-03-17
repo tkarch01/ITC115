@@ -1,0 +1,17 @@
+/*
+* ITC 115 W16 - 3182
+* Assignment 9
+* 
+*Thomas Karchesy
+* March 14, 2016
+*/
+package ui;
+
+public class MovieApp {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

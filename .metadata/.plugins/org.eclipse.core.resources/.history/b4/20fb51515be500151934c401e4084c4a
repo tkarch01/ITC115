@@ -1,0 +1,29 @@
+package business;
+
+public abstract class Player {
+	// will contain name of player and Roshambo value
+	private String name;
+	private Roshambo value;
+	
+	public Player(){}
+	
+	public Player(String name, Roshambo value){
+		this.name= name;
+		this.value= value;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Roshambo getValue() {
+		return value;
+	}
+	public void setValue(Roshambo value) {
+		this.value = value;
+	}
+	
+	public abstract Roshambo generateRoshambo();
+}

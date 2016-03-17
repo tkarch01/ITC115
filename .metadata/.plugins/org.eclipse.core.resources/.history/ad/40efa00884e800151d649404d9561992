@@ -1,0 +1,34 @@
+package business;
+
+public class Movie {
+	
+	private String title;
+	private String catigory;
+
+	public Movie() {
+		this.title = null;
+		this.catigory=null;
+	}
+
+	public Movie(String title, String catigory) {
+		this.title = title;
+		this.catigory = catigory;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getCatigory() {
+		return catigory;
+	}
+
+	public void setCatigory(String catigory) {
+		this.catigory = catigory;
+	}
+
+}
